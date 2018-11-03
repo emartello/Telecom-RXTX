@@ -1,0 +1,24 @@
+<TesteImagem>:
+	BoxLayout:
+		orientation:'vertical'
+		Label:
+			text: "SOFTWARE PISCADOR DE LED WIRELESS"
+			
+		ImageButton:  
+			source: root.minhaImagem
+		Label:
+			text: ""
+	
+	BoxLayout:
+		orientation:'horizontal'
+		spacing: 2
+
+		Button:
+			text: "LIGA LED"
+            color: [0,1,1,1]
+			on_release: root.mudaFigura()            
+		Button:
+			text: "DESLIGA LED"
+            color: [0,1,1,1]
+			on_release: root.mudaFigura2()
+			   
